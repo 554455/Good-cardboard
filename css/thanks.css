@@ -1,0 +1,30 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.text-title {
+  font-size: 50px;
+  color: #ff9d00;
+}
+
+.super-hyper {
+  text-decoration: none;
+  font-size: 30px;
+  color: #373737;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.super-hyper:hover {
+  color: #ff9d00;
+}
+
+@media (max-width: 576px) {
+  .text-title {
+    font-size: 100px;
+  }
+  .super-hyper {
+    font-size: 60px;
+  }
+}
